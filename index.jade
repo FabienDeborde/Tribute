@@ -1,0 +1,146 @@
+doctype html
+html(lang="en")
+  head
+    title Tribute to Coluche
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="assets/css/main.css" )
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700italic|Lato:400,100,300', type='text/css')
+  body(data-spy="scroll" data-target=".nav")
+    header#top
+      ul.nav.navbar-nav.navbar-fixed-top.clearfix
+        li.dropdown.pull-right
+          a(href="#", data-toggle="dropdown", data-target="navbar-collapse") <i class="fa fa-bars"></i>
+          ul.dropdown-menu.dropdown-menu-right
+            li: a(href="#top") Home
+            li: a(href="#bio") Biography
+            li: a(href="#resto") Restos du Coeur
+            li: a(href="#filmo") Filmography & Sketches
+            li: a(href="#quotes") Quotes      
+      .title
+        h1.text-center C<i>o</i>luche
+        h2.text-center.header_quote.blockquote I'll quit politics when politicians quit comedy </br>- they steal my job, I steal theirs.
+    
+    .container  
+      article.biography.row
+        .hidden-xs.col-sm-12.col-md-4.col-md-push-7.bio_img
+          img.img-responsive.center-block(alt="" src="assets/img/bio_small.jpg")
+        .col-sm-12.col-md-6.col-md-pull-3.txt
+          h2#bio.bio_title Biography
+          .bio_content
+            p Michel Gérard Joseph Colucci (born October 28, 1944 in Paris, France; died June 19, 1986 in Opio, Alpes-Maritimes, France), better known as Coluche, was a French comedian and actor, famous for his irreverent sense of humour.
+
+            p Colucci adopted "Coluche" as a stage name at 26, when he began his entertainment career. He became known for his irreverent attitude towards politics and the establishment, and he incorporated this into much of his material. He was one of the first major comedians to regularly use profanities as a source of humor on French television.
+
+            p On October 30, 1980, Coluche organised a press-conference in the theatre where he was performing a one-man show. It was there that he announced his candidacy for the French presidential elections in 1981. At first he was not taken seriously until the day the Sunday newspaper, Le Journal du Dimanche, published a poll on 14 December 1980, crediting Coluche with 16% of voting intentions.
+
+            p In September 1985, he created the "Restos du cœur" charity (40,000 volunteers in almost 2,500 Restos, which welcome 600,000 beneficiaries a day). This charity was launched by Coluche when he made a speech on the radio station Europe 1. This speech is very famous and begins with the words 'I have a little idea..'. The charity collects food, money and clothes for the needy and the homeless. Each year, a fund-raising concert series is presented by various singers and celebrities, collectively known as les Enfoirés ("the assholes").
+
+            p Less than a year later, in June 1986, Coluche died when his motorcycle crashed into a truck on a road in the commune of Opio in southeastern France. He was 41. This event provoked national grief and inspired the album Putain de camion ("fuckin' truck") by close friend Renaud. 
+          
+      article.resto.row
+        .col-sm-12.col-md-4.col-md-offset-1.resto_img
+          img.img-responsive.center-block(alt="" src="assets/img/Restos_du_coeur_Logo.png")
+        .col-sm-12.col-md-6.txt
+            h2#resto.resto_title Les Restos du Cœur
+            .resto_content
+              p The Restaurants du Cœur (literally Restaurants of the Heart but meaning Restaurants of Love), commonly and familiarly known as the Restos du Cœur, is a French charity, the main activity of which is to distribute food packages and hot meals to the needy. It was founded by the comedian Coluche in 1985.
+              p The comedian and actor Coluche launched the idea of the Restos du Cœur on 26 September 1985. "I have a little idea, a bit like this... If there are people who would be interested in sponsoring a free soup kitchen, we'd start first in Paris and then spread to France's big cities." The first of the Restos opened on 21 December and soon multiplied all over the country. The goal of the founders was to give away 2,000 to 3,000 meals per day; 8.5 million were distributed in the first winter alone. The initiative was supported by a song written by the songwriter and singer Jean-Jacques Goldman called 'Les Restos du Cœur', which included some of the lyrics being sung or read out by other celebrities. A televised show allowed the organization to collect several million francs.
+              p Coluche pleaded for the Restos' cause at the European Parliament in February 1986 after learning that surplus products cost more to store than to distribute for free to the poor; his plea was heard and the surplus was opened in 1987 to four organizations.
+                    
+      article.filmo.row
+        .hidden-xs.col-sm-12.col-md-4.col-md-push-7.filmo_img
+          img.img-responsive.center-block(alt="" src="assets/img/tchaop.jpg")
+        .col-sm-12.col-md-6.col-md-pull-3.txt
+          h2#filmo.filmo_title Filmography & Sketches 
+          .filmo_content
+            ul <i class="fa fa-film"></i> <strong> List of Coluche's best movies </strong>
+              li.film: #[a(href="http://www.imdb.com/title/tt0074103/?ref_=fn_al_tt_1" target="_blank") L&#39;aile ou la cuisse] #[ (1976), directed by Claude Zidi, with Louis de Funès]
+              li.film: #[a(href="http://www.imdb.com/title/tt0083824/?ref_=fn_al_tt_1" target="_blank") Deux heures moins le quart avant Jésus-Christ] #[ (1982), directed by Jean Yanne, with Michel Serrault, Jean Yanne]
+              li.film: #[a(href="http://www.imdb.com/title/tt0083618/?ref_=fn_al_tt_1" target="_blank") Banzaï] #[ (1983), directed by Claude Zidi, with Valérie Mairesse, Didier Kaminka] 
+              li.film: #[a(href="http://www.imdb.com/title/tt0085529/?ref_=fn_al_tt_1" target="_blank") La Femme de mon pote] #[ (1983), directed by Bertrand Blier, with Isabelle Huppert, Thierry Lhermitte]
+              li.film: #[a(href="http://www.imdb.com/title/tt0086420/?ref_=fn_al_tt_1" target="_blank") Tchao Pantin] #[ (1983), directed by Claude Berri, with Richard Anconina, Agnès Soral]
+
+          .sketches_content
+            ul <i class="fa fa-comment-o"></i> <strong> List of some of the best sketches he did </strong>
+              li.sketch 1974 : C'est l'histoire d'un mec
+              li.sketch 1974 : Je me marre
+              li.sketch 1975 : L'auto-stoppeur
+              li.sketch 1975 : Le schmilblick
+              li.sketch 1979 : La politique (En politique, on est &#39achement balèze)
+              li.sketch 1980 : Si j'ai bien tout lu Freud
+      
+
+      article.quotes.row
+        .col-sm-12.col-md-5.col-md-offset-1.quotes_img
+          img.img-responsive.center-block(alt="" src="assets/img/tchao.jpg")
+        .col-sm-12.col-md-5.txt
+            h2#quotes.quotes_title Quotes
+            .quotes_content
+              ul <strong> Here are some of Coluche's best quotes: </strong>
+                li.quote » Just because there are so many of them being wrong doesn't mean they're right.
+                li.quote » They say 3 million people are looking for a job. False: all they really need is money.
+                li.quote » The speed of light is faster than the speed of sound, which is why sometimes people look bright until they start talking.
+                li.quote » People say, "we live in a world full of morons!" They are right. But they still underestimate their number.
+                li.quote » A neutral country is one which does not sell weapons to a country at war... unless it pays cash.
+                li.quote » In a dictatorship you're told: "Shut up!". In a democracy it's: "Keep talking!"...
+                br
+              ul <i>For more quotes, check theses websites or watch below: </i>
+                li 
+                  a(href="https://haaren.wordpress.com/tag/coluche-quotes/" target="_blank") https://haaren.wordpress.com/tag/coluche-quotes/
+                li 
+                  a(href="https://en.wikiquote.org/wiki/Talk:Coluche" target="_blank") https://en.wikiquote.org/wiki/Talk:Coluche
+      
+      .row.carousel_quotes
+        .carousel.slide(data-ride="carousel")
+          .carousel-inner.black_background
+            .item.active
+              .carousel-caption
+                h3
+                  p « A neutral country is the one which does not sell weapons to a country at war… unless it pays cash. »
+            .item
+              .carousel-caption
+                h3
+                  p « It seems that a preservative is a nice political logo.  It balances inflation, allows expansion, limits overproduction and provides a satisfactory feeling of security. »
+            .item
+              .carousel-caption
+                h3
+                  p « Some are tall, some are short! The good height for the legs, is when your feet firmly touch the ground! »
+            .item
+              .carousel-caption
+                h3
+                  p « Long term credit means the less you can pay the more you pay. »
+            .item
+              .carousel-caption
+                h3
+                  p « It is not really my fault if some people are hungry, but it would be my fault if nothing changed. »
+            .item
+              .carousel-caption
+                h3
+                  p « It makes people laugh when you poke fun at politic.  However, it is mainly politic who poke fun at us. »
+            .item
+              .carousel-caption
+                h3
+                  p « I'm not a nouveau riche, I'm a former poor. »
+            .item
+              .carousel-caption
+                h3
+                  p « If there were a tax on stupidity, the government would be self-financing. »
+            .item
+              .carousel-caption
+                h3
+                  p « I am capable of the very best and the very worst, but I'm the best at being the worst! »
+            .item
+              .carousel-caption
+                h3
+                  p « Yuri Gagarin was extremely unlucky: after orbiting earth 17 times, he fell back down in the USSR! »
+        
+      footer.row
+        p Most of the credits goes to <a href="https://www.wikipedia.org/" target="_blank"> Wikipedia </a> for the informations. I also apologize for the poor quality of the photos, I wish I could have buy some good stock pictures.
+        p You can find this project either on <a href="http://codepen.io/fabien_d/pen/pyEqym" target="_blank"> CodePen </a> or on <a href="" target="_blank"> GitHub</a>. Thanks for having read so far! Feel free to comment on anything!
+        
+script(src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous")
+script(src="assets/js/functions.js")
+script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
